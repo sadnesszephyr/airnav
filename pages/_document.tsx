@@ -17,7 +17,7 @@ class MyDocument extends Document {
 	                <link rel="manifest" href="/site.webmanifest"/>
                     {/*<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5865f2"/>*/}
                     <meta name="msapplication-TileColor" content="#FFFFFF"/>
-                    <meta name="theme-color" data-react-helmet="true" content="#1B1B1B"/>
+                    <meta name="theme-color" data-react-helmet="true" content="#FFFFFF"/>
                     {/*<meta content="Mono" property="og:title"/>*/}
                     {/*<meta content="Mono was designed with special attention to comfort usability and high customization to help you to get rid of overage of bots." property="og:description"/>*/}
                     {/*<meta content="https://mono-bot.vercel.app/images/logoBlurple.pmg" property="og:image"/>*/}
