@@ -1,0 +1,19 @@
+.action-box {
+  width: calc((100% - 1.5rem) / 2 + 1.5rem);
+  height: 7rem;
+  border-radius: var(--radius);
+  background: var(--foreground);
+  flex-shrink: 0;
+  color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 1rem;
+  text-align: center;
+
+  h5 {
+    margin: 0;
+  }
+}

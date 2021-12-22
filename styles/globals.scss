@@ -1,0 +1,98 @@
+@import "variables.css";
+
+@font-face {
+  font-family: "Averta";
+  font-weight: 400;
+  src: url("/fonts/Averta/Averta Cyrillic Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-weight: 500;
+  src: url("/fonts/Averta/Averta Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-weight: 600;
+  src: url("/fonts/Averta/Averta SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-weight: bold;
+  src: url("/fonts/Averta/Averta Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-weight: 800;
+  src: url("/fonts/Averta/Averta ExtraBold.otf") format("opentype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Averta, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: Averta, serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: .875rem;
+  line-height: 1.275rem;
+}
+
+p {
+  color: var(--foreground-secondary);
+  margin: 0;
+}

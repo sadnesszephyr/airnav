@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  margin: auto;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .container_bottom-safe {
+    padding-bottom: 6.5rem;
+  }
+}

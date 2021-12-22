@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  width: 100%;
+
+  .input-info {
+    display: flex;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    justify-content: space-between;
+    .input-label {
+      font-variant: small-caps;
+    }
+  }
+
+  .input {
+    font-family: Averta, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    transition: .2s;
+    width: 100%;
+    color: var(--foreground);
+    background: var(--background);
+    border-style: solid;
+    border-radius: calc(3.5rem / 2);
+    padding: 1rem 1.5rem;
+    border-width: 1px;
+    height: 3.5rem;
+    font-size: 1rem;
+    outline: none;
+
+    ::placeholder {
+      color: var(--background-tetrary);
+    }
+
+    :focus, :focus-visible {
+      border-color: var(--primary);
+      outline: none;
+    }
+  }
+}
